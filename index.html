@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini Inventory</title>
+  <link rel="stylesheet" href="style.css">
+<body>
+  <input type="text" id="namaBarang" placeholder="Nama Barang">
+  <input type="number" id="berat" placeholder="Berat (kg)">
+  <input type="text" id="gambar" placeholder="URL Gambar">
+  <button onclick="tambahData()">Tambah</button>
+
+  <table border="1">
+    <thead>
+      <tr>
+        <th>No</th>
+        <th>Nama Barang</th>
+        <th>Berat</th>
+        <th>Gambar</th>
+        <th>Aksi</th>
+      </tr>
+    </thead>
+    <tbody id="barangBody"></tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
